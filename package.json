@@ -1,0 +1,25 @@
+{
+  "name": "gcloud-discord-notify",
+  "version": "1.0.0",
+  "description": "Passes notifications from Google Cloud monitoring to Discord",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/weirdgloop/gcloud-discord-notify.git"
+  },
+  "author": "Jayden Bailey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/weirdgloop/gcloud-discord-notify/issues"
+  },
+  "homepage": "https://gitlab.com/weirdgloop/gcloud-discord-notify#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "discord.js": "^13.3.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1"
+  }
+}
