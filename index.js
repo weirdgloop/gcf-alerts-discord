@@ -31,7 +31,7 @@ app.post('/', (req, res, next) => {
 
     let summary = req.body.incident.summary.replaceAll('\n', ' ')
 
-    text += `**[${req.body.incident.policy_name}](${req.body.incident.url})** (${req.body.incident.condition_name}): ${summary}`;
+    text += `**[${req.body.incident.policy_name}](<${req.body.incident.url}>)** (${req.body.incident.condition_name}): ${summary}`;
 
     webhookClient.send({
         username: 'Google Cloud',
