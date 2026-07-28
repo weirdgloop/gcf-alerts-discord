@@ -17,7 +17,7 @@
   },
   "homepage": "https://gitlab.com/weirdgloop/gcloud-discord-notify#readme",
   "dependencies": {
-    "body-parser": "^1.20.3",
+    "body-parser": "^1.20.6",
     "discord.js": "^13.3.1",
     "dotenv": "^10.0.0",
     "express": "^4.20.0"
